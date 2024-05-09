@@ -1,0 +1,18 @@
+<div class="purple-box mb-7">
+  <h2 class="md:text-5xl sm:text-4xl text-3xl mb-7 md:max-w-[90%]">
+    <b>EquaTalent</b> revolutionizes how you find and evaluate candidates -
+    through automation and AI.
+  </h2>
+
+  <div class="grid col-12">
+    <div class="box md:col-4 col-12" *ngFor="let advantage of advantages">
+      <img
+        [src]="imgPath + advantage.icon"
+        [alt]="advantage.icon"
+        class="mb-1"
+      />
+
+      <p> {{ advantage.desc }} </p>
+    </div>
+  </div>
+</div>

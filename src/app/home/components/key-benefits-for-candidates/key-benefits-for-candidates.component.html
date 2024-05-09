@@ -1,0 +1,25 @@
+<div class="ui-grid mb-4 relative overflow-hidden">
+  <div class="grid col-12">
+    <h2>Key Benefits for Candidates</h2>
+
+    <div class="col-6 flex flex-column">
+      <div class="card" *ngFor="let card of cards">
+        <div class="purple-small-box">
+          <i class="pi" [ngClass]="card.icon"></i>
+        </div>
+
+        <h5>{{ card.title }}</h5>
+        <p>{{ card.desc }}</p>
+      </div>
+    </div>
+
+    <div class="col-6 img-box">
+      <img
+        src="assets/img/home/keyBenefitsForCandidates.png"
+        alt="key Benefits For Candidates"
+      />
+    </div>
+  </div>
+
+  <img src="assets/img/home/line-pattern.svg" class="line-pattern" />
+</div>

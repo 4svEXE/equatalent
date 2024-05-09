@@ -1,0 +1,12 @@
+<div class="light-bg-box mb-7">
+  <h2>Key Benefits for Companies</h2>
+
+  <div class="grid col-12">
+    <div *ngFor="let card of cards" class="card col-12" [ngClass]="card.class">
+      <img src="assets/img/home/featured-icon-window.svg.png" alt="featured-icon" />
+
+      <h5>{{card.title}}</h5>
+      <p>{{card.desc}}</p>
+    </div>
+  </div>
+</div>

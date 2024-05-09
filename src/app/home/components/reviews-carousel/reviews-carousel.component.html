@@ -1,0 +1,38 @@
+<div class="carousel-container purple-box p-flex p-flex-center mb-7">
+  <div class="ui-grid- m-0 overflow-hidden md:py-2 lg:py-3 xl:py-4">
+    <p-carousel
+      [value]="cards"
+      [numVisible]="1"
+      [numScroll]="1"
+      [circular]="true"
+      [showIndicators]="false"
+      [showNavigators]="true"
+    >
+      <ng-template let-card pTemplate="card">
+        <div class="card grid col-fixed md:col-12">
+          <div class="lef-side col-12 md:col-6">
+            <img [src]="card.imageUrl" alt="avatar" />
+          </div>
+
+          <div class="right-side col-12 md:col-6 py-2">
+            <div class="flex flex-column">
+              <div class="rating">
+                <i
+                  class="pi pi-star-fill"
+                  *ngFor="let i of getRating(card.rating)"
+                ></i>
+              </div>
+
+              <p>{{ card.desc }}</p>
+            </div>
+
+            <div class="flex flex-column">
+              <h4>{{ card.name }}</h4>
+              <span>{{ card.position }}</span>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+</div>

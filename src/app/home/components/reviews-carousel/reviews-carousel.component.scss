@@ -1,0 +1,98 @@
+@import "../../../shared/shared.scss";
+
+::ng-deep .p-carousel-container {
+    position: relative;
+}
+
+::ng-deep .p-carousel-prev,
+::ng-deep .p-carousel-next {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    z-index: 10;
+    background-color: inherit;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: inherit;
+    }
+}
+
+::ng-deep .p-carousel-prev {
+    transform: translateX(-100%);
+    margin-right: 32px;
+}
+
+@media (max-width: 640px) {
+    ::ng-deep .p-carousel-prev {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    ::ng-deep .p-carousel-next {
+        right: 50%;
+        transform: translateX(150%);
+    }
+}
+
+.carousel-container {
+    background-color: $purple-color;
+}
+
+.card {
+    padding-bottom: 60px;
+
+    .lef-side {
+
+        height: 375px;
+
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-width: 352px;
+            margin-left: 20px;
+        }
+    }
+
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 375px;
+        padding-left: 24px;
+        margin-bottom: 20px;
+
+        .rating {
+            margin-bottom: 24px;
+            display: flex;
+
+            i {
+                font-size: 20px;
+                color: $orange-color;
+                margin-right: 4px;
+            }
+        }
+
+        p {
+            color: $white-color;
+            font-size: 18px;
+        }
+
+        h4 {
+            color: $white-color;
+            font-size: 18px;
+            margin: 0;
+            margin-bottom: 4px;
+        }
+
+        span {
+            font-size: 16px;
+            color: $light-purple-color;
+        }
+    }
+}

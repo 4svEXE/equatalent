@@ -1,0 +1,33 @@
+@import "../../../shared/shared.scss";
+
+.box {
+    display: flex;
+    flex-direction: column;
+
+    .light-bg-card {
+        border-radius: 16px;
+        background-color: $light-bg-color;
+        padding: 24px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h5 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 16px;
+            color: $grey-color;
+        }
+
+        span {
+            font-size: 16px;
+            color: $purple-color;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

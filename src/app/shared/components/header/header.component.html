@@ -1,0 +1,57 @@
+<div class="ui-grid grid flex justify-content-between align-items-center">
+  <img
+    class="logo"
+    src="https://hrappstorage.blob.core.windows.net/eq-landing-page/eq-logo.svg"
+    alt="equatalent logo" />
+  <div class="desktop-menu flex justify-content-between">
+    <div class="menu flex align-items-center">
+      <div *ngFor="let item of menuItems; let last = last">
+        <a class="app-link" [ngClass]="{ 'last-item': last }" href="#">{{
+          item
+        }}</a>
+      </div>
+    </div>
+    <div class="flex align-items-center">
+      <a class="app-link" href="app.equatalent.com/login" translate>Login</a>
+      <a
+        href="https://app.equatalent.com/signup"
+        class="app-button"
+        role="button"
+        >Sign Up</a
+      >
+    </div>
+  </div>
+  <div class="mobile-menu" (click)="toggleMenu($event)">
+    <i class="pi pi-bars"></i>
+  </div>
+</div>
+
+<div
+  *ngIf="displayMenu"
+  class="menu-overlay"
+  appClickOutside
+  (clickOutside)="closeMenu()">
+  <div class="menu-content" (click)="$event.stopPropagation()">
+    <div class="menu flex flex-column">
+      <div *ngFor="let item of menuItems; let last = last">
+        <a class="app-link" [ngClass]="{ 'last-item': last }" href="#">{{
+          item
+        }}</a>
+      </div>
+    </div>
+    <div class="footer flex flex-column">
+      <a
+        href="https://app.equatalent.com/signup"
+        class="app-button"
+        role="button"
+        >Sign Up</a
+      >
+      <a
+        class="app-button app-button-white"
+        href="app.equatalent.com/login"
+        translate
+        >Login</a
+      >
+    </div>
+  </div>
+</div>

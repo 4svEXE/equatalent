@@ -1,0 +1,21 @@
+<div class="box sm:m-1 sm:p-1">
+  <h2 class="md:mb-7 mb-5">How It Works</h2>
+
+  <div class="boxes grid col-12">
+    <div *ngFor="let card of cards; let i = index" class="col-12 lg:col-6 xl:col-3">
+        <div class="light-bg-card m-2" >
+            <div class="purple-small-box md:mb-7 mb-5">{{ i + 1 }}</div>
+
+            <div class="flex flex-column">
+              <h5>{{ card.title }}</h5>
+              <p> {{ card.desc }} </p>
+            </div>
+
+            <span>
+              {{ card.shortDesc }}
+              <i class="ml-2 pi" [ngClass]="card.icon"></i>
+            </span>
+          </div>
+    </div>
+  </div>
+</div>

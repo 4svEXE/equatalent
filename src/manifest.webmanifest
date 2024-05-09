@@ -1,0 +1,10 @@
+{
+  "name": "EquaTalent",
+  "short_name": "EquaTalent",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": []
+}

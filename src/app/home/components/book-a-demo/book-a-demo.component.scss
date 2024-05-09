@@ -1,0 +1,21 @@
+@import "../../../shared/shared.scss";
+
+.light-bg-box{
+    h3{
+        font-size: 28px;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    p{
+        font-size: 16px;
+        color: $grey-color;
+    }
+}
+
+.app-button{
+    max-width: 147px;
+    height: fit-content;
+    margin-top: 8px;
+    display: flex;
+}

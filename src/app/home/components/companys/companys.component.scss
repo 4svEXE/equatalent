@@ -1,0 +1,31 @@
+@import "../../../shared/shared.scss";
+
+.companys-grid {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+
+    .companys-box {
+        display: flex;
+        flex-direction: column;
+
+        h4 {
+            color: $dark-grey-color-7;
+            font-size: 20px;
+            margin-bottom: 32px;
+            display: inline;
+            text-align: center;
+        }
+
+        .companys-logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            img {
+                margin-left: 24px;
+                margin-bottom: 24px;
+            }
+        }
+    }
+}

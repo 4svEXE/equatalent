@@ -1,0 +1,50 @@
+@import "../../../shared/shared.scss";
+
+.purple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        max-width: 100%;
+        text-align: center;
+        color: $white-color;
+
+        @media (min-width: 640px) {
+            max-width: 100%;
+        }
+
+
+        @media (min-width: 640px) and (max-width: 767px) {
+            max-width: 80%;
+        }
+
+        @media (min-width: 1024px) {
+            max-width: 70%;
+        }
+
+        b {
+            color: $orange-color;
+        }
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            width: 48px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            color: $white-color;
+            max-width: 300px;
+            text-align: center;
+        }
+    }
+}

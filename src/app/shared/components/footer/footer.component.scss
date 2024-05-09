@@ -1,0 +1,21 @@
+@import "../../../shared/shared.scss";
+
+footer {
+    a {
+        padding: 4px;
+    }
+
+    .a-link {
+        color: $purple-color;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .color-grey {
+        color: $grey-color;
+    }
+
+    .bordered {
+        border-bottom: 1px solid $dark-grey-color-2;
+    }
+}
