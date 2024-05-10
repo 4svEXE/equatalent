@@ -3,7 +3,7 @@
 .line-pattern {
     position: absolute;
     width: 300px;
-    
+
 
 }
 
@@ -30,6 +30,7 @@
 
 .right-side {
     height: -webkit-fill-available;
+    overflow: hidden;
 
     .mockup-bg {
         width: 50%;
@@ -42,10 +43,11 @@
         background-repeat: no-repeat;
 
         &.sm-device {
-            width: auto;
             height: 200px;
             width: -webkit-fill-available;
             background-image: url("../../../../../src/assets/img/home/device.png");
+            transform: scale(1.3);
+            margin-top: 40px;
         }
     }
 }
