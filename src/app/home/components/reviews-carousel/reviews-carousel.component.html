@@ -10,11 +10,13 @@
     >
       <ng-template let-card pTemplate="card">
         <div class="card grid col-fixed md:col-12">
-          <div class="lef-side col-12 md:col-6">
-            <img [src]="card.imageUrl" alt="avatar" />
+          <div
+            class="lef-side col-12 md:col-7 lg:col-6 flex justify-content-center md:justify-content-end"
+          >
+            <img [src]="card.imageUrl" alt="avatar"/>
           </div>
 
-          <div class="right-side col-12 md:col-6 py-2">
+          <div class="right-side col-12 md:col-5 lg:col-4 py-2">
             <div class="flex flex-column">
               <div class="rating">
                 <i
@@ -23,7 +25,9 @@
                 ></i>
               </div>
 
-              <p>{{ card.desc }}</p>
+              <p class="xl:text-3xl lg:text-2xl md:text-xl text-xl">
+                {{ card.desc }}
+              </p>
             </div>
 
             <div class="flex flex-column">
