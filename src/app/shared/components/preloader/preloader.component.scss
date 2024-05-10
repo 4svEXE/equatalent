@@ -7,7 +7,6 @@ $delay: .8s;
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
     align-items: center;
     justify-content: center;
     z-index: 50;
@@ -44,8 +43,50 @@ $delay: .8s;
     80% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
         display: none;
+    }
+}
+
+.loader {
+    display: block;
+    --height-of-loader: 2px;
+    --loader-color: #0071e2;
+    width: 100%;
+    height: var(--height-of-loader);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background: var(--loader-color);
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        border-radius: 30px;
+        animation: moving 1s ease-in-out infinite;
+    }
+
+    &.loadet{
+        display: none;
+    }
+}
+
+
+
+@keyframes moving {
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0;
+        right: 0;
+        left: unset;
     }
 }
