@@ -6,7 +6,7 @@ import { SharedModule } from "../shared";
 import { CarouselModule } from "primeng/carousel";
 
 import { FirstScreenComponent } from "./components/first-screen/first-screen.component";
-import { CompanysComponent } from "./components/companys/companys.component";
+import { CompaniesComponent } from "./components/companies/companies.component";
 import { AdvantagesComponent } from "./components/advantages/advantages.component";
 import { HowItWorksComponent } from "./components/how-it-works/how-it-works.component";
 import { KeyBenefitsComponent } from "./components/key-benefits/key-benefits.component";
@@ -20,7 +20,7 @@ const routes: Routes = [{ path: "", component: HomeComponent }];
 const contenders = [
   HomeComponent,
   FirstScreenComponent,
-  CompanysComponent,
+  CompaniesComponent,
   AdvantagesComponent,
   HowItWorksComponent,
   KeyBenefitsComponent,

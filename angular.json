@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-starter": {
+    "equatalent": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-starter/browser",
+            "outputPath": "dist/equatalent/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -84,13 +84,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-starter:build:production"
+              "buildTarget": "equatalent:build:production"
             },
             "stage": {
-              "buildTarget": "angular-starter:build:stage"
+              "buildTarget": "equatalent:build:stage"
             },
             "development": {
-              "buildTarget": "angular-starter:build:development"
+              "buildTarget": "equatalent:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -98,7 +98,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angular-starter:build"
+            "buildTarget": "equatalent:build"
           }
         },
         "test": {
@@ -132,7 +132,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/angular-starter/server",
+            "outputPath": "dist/equatalent/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json"
           },
@@ -160,12 +160,12 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "buildTarget": "angular-starter:build:development",
-              "serverTarget": "angular-starter:server:development"
+              "buildTarget": "equatalent:build:development",
+              "serverTarget": "equatalent:server:development"
             },
             "production": {
-              "buildTarget": "angular-starter:build:production",
-              "serverTarget": "angular-starter:server:production"
+              "buildTarget": "equatalent:build:production",
+              "serverTarget": "equatalent:server:production"
             }
           },
           "defaultConfiguration": "development"
@@ -179,12 +179,12 @@
           },
           "configurations": {
             "production": {
-              "buildTarget": "angular-starter:build:production",
-              "serverTarget": "angular-starter:server:production"
+              "buildTarget": "equatalent:build:production",
+              "serverTarget": "equatalent:server:production"
             },
             "development": {
-              "buildTarget": "angular-starter:build:development",
-              "serverTarget": "angular-starter:server:development"
+              "buildTarget": "equatalent:build:development",
+              "serverTarget": "equatalent:server:development"
             }
           },
           "defaultConfiguration": "production"

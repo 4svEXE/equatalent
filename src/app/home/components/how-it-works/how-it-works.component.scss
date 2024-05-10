@@ -3,8 +3,10 @@
 .box {
     display: flex;
     flex-direction: column;
+    height: 100%;
 
     .light-bg-card {
+        // height: 100%;
         border-radius: 16px;
         background-color: $light-bg-color;
         padding: 24px;

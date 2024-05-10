@@ -1,13 +1,13 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "app-companys",
-  templateUrl: "./companys.component.html",
-  styleUrl: "./companys.component.scss",
+  selector: "app-companies",
+  templateUrl: "./companies.component.html",
+  styleUrl: "./companies.component.scss",
 })
-export class CompanysComponent {
-  imgPath = "assets/img/home/companys/";
-  companys = [
+export class CompaniesComponent {
+  imgPath = "assets/img/home/companies/";
+  companies = [
     "Forte Group.svg",
     "costa.svg",
     "i5.svg",

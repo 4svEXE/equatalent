@@ -1,8 +1,8 @@
 <div class="ui-grid mb-4 relative overflow-hidden">
   <div class="grid col-12">
-    <h2>Key Benefits for Candidates</h2>
+    <h2 class="col-12">Key Benefits for Candidates</h2>
 
-    <div class="col-6 flex flex-column">
+    <div class="col-12 lg:col-6 flex flex-column">
       <div class="card" *ngFor="let card of cards">
         <div class="purple-small-box">
           <i class="pi" [ngClass]="card.icon"></i>
@@ -13,10 +13,13 @@
       </div>
     </div>
 
-    <div class="col-6 img-box">
+    <div
+      class="img-box col-12 lg:col-6 justify-content-center lg:justify-content-end"
+    >
       <img
         src="assets/img/home/keyBenefitsForCandidates.png"
         alt="key Benefits For Candidates"
+        class="ml-0 md:ml-3"
       />
     </div>
   </div>

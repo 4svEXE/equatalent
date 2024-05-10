@@ -1,11 +1,11 @@
 @import "../../../shared/shared.scss";
 
-.companys-grid {
+.companies-grid {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
 
-    .companys-box {
+    .companies-box {
         display: flex;
         flex-direction: column;
 
@@ -17,13 +17,12 @@
             text-align: center;
         }
 
-        .companys-logos {
+        .companies-logos {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
 
             img {
-                margin-left: 24px;
                 margin-bottom: 24px;
             }
         }
