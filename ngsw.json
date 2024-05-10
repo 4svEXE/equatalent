@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1715338522975,
+  "timestamp": 1715345356025,
   "index": "https://4svEXE.github.io/equatalent/index.html",
   "assetGroups": [
     {
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://4svEXE.github.io/equatalent/146.abecad3648c9eecf.js",
+        "https://4svEXE.github.io/equatalent/146.1a6f3a5ceabca46c.js",
         "https://4svEXE.github.io/equatalent/favicon.ico",
         "https://4svEXE.github.io/equatalent/index.html",
-        "https://4svEXE.github.io/equatalent/main.b07a7bd24189e8b6.js",
+        "https://4svEXE.github.io/equatalent/main.f17bbea098b56c91.js",
         "https://4svEXE.github.io/equatalent/manifest.webmanifest",
         "https://4svEXE.github.io/equatalent/polyfills.213caa3965e4ed6c.js",
-        "https://4svEXE.github.io/equatalent/runtime.7529a87af18d6d43.js",
+        "https://4svEXE.github.io/equatalent/runtime.e0f01393441598ef.js",
         "https://4svEXE.github.io/equatalent/styles.1573210f0625ef8a.css"
       ],
       "patterns": []
@@ -65,7 +65,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://4svEXE.github.io/equatalent/146.abecad3648c9eecf.js": "c5a7a5f48171eb4203fdc86deb288515f791c55c",
+    "https://4svEXE.github.io/equatalent/146.1a6f3a5ceabca46c.js": "4a944676d12cbdabc307f90a30d88002e952297c",
     "https://4svEXE.github.io/equatalent/assets/i18n/en.json": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
     "https://4svEXE.github.io/equatalent/assets/i18n/fr.json": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
     "https://4svEXE.github.io/equatalent/assets/img/home/Featured-icon.svg": "0339528435111f3888715799ff02022d5291a9e1",
@@ -92,15 +92,15 @@
     "https://4svEXE.github.io/equatalent/favicon.ico": "4b72124375a46ccfc87c34635b6ea8554d129cdd",
     "https://4svEXE.github.io/equatalent/first-bg-pattern.9372772dd047d3cf.svg": "e083836a67b1f41aa384f39e4d6b88b60daa5ce3",
     "https://4svEXE.github.io/equatalent/first-screen-with-items.6ddd033074a969d3.png": "e2985137f5d7f529e68d61b7b764451efb9f1c10",
-    "https://4svEXE.github.io/equatalent/index.html": "2736e41a90ec9ccfd7563553e1ae65be07326063",
-    "https://4svEXE.github.io/equatalent/main.b07a7bd24189e8b6.js": "fb29dc902ba16e55502ae8796d95a2200d11d569",
+    "https://4svEXE.github.io/equatalent/index.html": "8c70d358195cea9033e64a0c00fc99feb481bab5",
+    "https://4svEXE.github.io/equatalent/main.f17bbea098b56c91.js": "d03628e0d8f29fa0be14a949c46599972f2010d0",
     "https://4svEXE.github.io/equatalent/manifest.webmanifest": "d635b715469f8cd478374ef7800f99091919a2d6",
     "https://4svEXE.github.io/equatalent/polyfills.213caa3965e4ed6c.js": "182a274e41461779520c25d01e1b4933e275caed",
     "https://4svEXE.github.io/equatalent/primeicons.19e14e488f5edc90.svg": "a07ae39027c1a780b42fd82fad7575c2924d9d28",
     "https://4svEXE.github.io/equatalent/primeicons.310a7310efb91ab1.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
     "https://4svEXE.github.io/equatalent/primeicons.7f7722745590608a.woff": "361e3af71bb4e515feead2f787348a92a5527158",
     "https://4svEXE.github.io/equatalent/primeicons.e1a53edb6ea00325.woff2": "837c1279b6af9d297f34fdb43e6fcc9206a79f32",
-    "https://4svEXE.github.io/equatalent/runtime.7529a87af18d6d43.js": "e6c07f2710dba818b62bf0ee0311e06fb6e1f66e",
+    "https://4svEXE.github.io/equatalent/runtime.e0f01393441598ef.js": "b65cd25f021c7c501f77c34ded94f1e222880257",
     "https://4svEXE.github.io/equatalent/styles.1573210f0625ef8a.css": "94bef28b69e3f7839eeb78bba344a8765c355b70"
   },
   "navigationUrls": [
