@@ -11,11 +11,9 @@ $delay: .8s;
     justify-content: center;
     z-index: 50;
     opacity: 1;
-    transition: $delay;
 
     .logo-box {
         padding: 18px 22px;
-
         position: absolute;
         top: 50%;
         left: 50%;
