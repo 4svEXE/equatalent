@@ -10,7 +10,6 @@ export class PreloaderComponent {
   ngOnInit() {
     window.onload = () => {
       this.loadet = true
-      console.log('Сторінка повністю завантажена');
     };
   }
 }
